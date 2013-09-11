@@ -164,6 +164,7 @@ textarea {
   font-size: 1.5em;
   text-align: center;
   background-color: #c40022;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .ribbon p {
@@ -183,7 +184,7 @@ textarea {
 
 .ribbon:before,
 .ribbon:after {
-  border: 1.5em solid #ad001d;
+  border: 1.5em solid #a8001c;
   z-index: -1;
 }
 
@@ -191,18 +192,20 @@ textarea {
   left: -2em;
   border-right-width: 1.5em;
   border-left-color: transparent;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .ribbon:after {
   right: -2em;
   border-left-width: 1.5em;
   border-right-color: transparent;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .ribbon-content:before,
 .ribbon-content:after {
   border-style: solid;
-  border-color: #99001a transparent transparent transparent;
+  border-color: #8f0018 transparent transparent transparent;
 }
 
 .ribbon-content:before {
