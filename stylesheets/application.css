@@ -303,6 +303,11 @@ textarea {
 
 .racker-powered a {
   display: block;
+  opacity: 0.8;
+}
+
+.racker-powered a:hover {
+  opacity: 1.0;
 }
 
 .copyright,
