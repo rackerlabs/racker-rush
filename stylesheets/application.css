@@ -262,6 +262,16 @@ textarea {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.map {
+  color: #555;
+  border-bottom: 1px dotted #666;
+}
+
+.map:hover {
+  color: #c40022;
+  border-bottom: 1px dotted #c40022;
+}
+
 .agenda {
   margin-left: 520px;
 }
