@@ -176,6 +176,7 @@ h2 {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .team-name {
