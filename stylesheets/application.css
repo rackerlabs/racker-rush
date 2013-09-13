@@ -103,6 +103,31 @@ h2 {
   border-bottom: 2px solid #c40022;
 }
 
+/* Teams */
+.team-list {
+  padding: 0;
+  list-style: none;
+}
+
+.team {
+  width: 100%;
+  margin: 2em 0;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.team-name {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.team-description {
+  margin: 0.2em 0;
+}
+
 /* Footer */
 .racker-powered {
   display: block;
