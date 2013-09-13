@@ -102,3 +102,25 @@ h2 {
   color: #333;
   border-bottom: 2px solid #c40022;
 }
+
+/* Footer */
+.racker-powered {
+  display: block;
+  width: 10em;
+  height: 3em;
+  margin: 1em auto;
+  text-indent: -9999px;
+  background: url(../images/racker-powered.png) center center no-repeat;
+  opacity: 0.8;
+}
+
+.racker-powered:hover {
+  opacity: 1.0;
+}
+
+.equal-opportunity,
+.copyright {
+  color: #eee;
+  font-size: 0.8em;
+  text-align: center;
+}
