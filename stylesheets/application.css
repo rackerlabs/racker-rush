@@ -231,6 +231,79 @@ h2 {
   }
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 1024px) {
+  .logo {
+    float: left;
+    margin: 0;
+  }
 
+  .nav ul {
+    float: right;
+  }
+
+  .nav li {
+    float: left;
+    margin: 0 0 0 1em;
+  }
+
+  .ribbon {
+    margin-left: -2em;
+    margin-right: -2em;
+  }
+
+  .ribbon:before,
+  .ribbon:after,
+  .ribbon-content:before,
+  .ribbon-content:after {
+    display: block;
+    position: absolute;
+    bottom: -1em;
+    content: "";
+  }
+
+  .ribbon:before,
+  .ribbon:after {
+    border: 1.5em solid #a8001c;
+    z-index: -1;
+  }
+
+  .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
+
+  .ribbon-content:before,
+  .ribbon-content:after {
+    border-style: solid;
+    border-color: #8f0018 transparent transparent transparent;
+  }
+
+  .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+  }
+
+  .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+  }
+
+  .intro {
+    font-size: 1.8em;
+  }
+
+  .photo-office {
+    float: left;
+    width: 60%;
+    margin: 0 2em 0 0;
+  }
 }
