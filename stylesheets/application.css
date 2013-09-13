@@ -35,6 +35,21 @@ h2 {
   font-weight: 600;
 }
 
+/* Utility */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 /* Layout */
 .photo {
   width: 100%;
@@ -106,7 +121,7 @@ h2 {
 /* Details */
 .intro {
   margin: 1em 0;
-  font-size: 1.8em;
+  font-size: 1.3em;
   font-weight: 300;
 }
 
@@ -193,4 +208,29 @@ h2 {
   color: #eee;
   font-size: 0.8em;
   text-align: center;
+}
+
+@media only screen and (min-width : 480px) {
+  .nav li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+
+  .intro {
+    font-size: 1.5em;
+  }
+
+  .team {
+    float: left;
+    width: 48%;
+    margin: 0 0 2em;
+  }
+
+  .team:nth-child(odd) {
+    margin-right: 4%;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+
 }
