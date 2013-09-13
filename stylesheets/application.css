@@ -1,5 +1,6 @@
 body {
   color: #555;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4;
   background-color: #eee;
@@ -56,7 +57,6 @@ h2 {
 .section-inner,
 .footer-inner {
   max-width: 768px;
-  margin: 0 auto;
 }
 
 .section-inner {
@@ -65,5 +65,40 @@ h2 {
 }
 
 .footer-inner {
+  margin: 0 auto;
   padding: 1em;
+}
+
+/* Header */
+.logo {
+  display: block;
+  width: 12em;
+  height: 4em;
+  margin: 1em auto;
+  text-indent: -9999px;
+  background: url(../images/logo-rackspace.png) center center no-repeat;
+}
+
+.nav ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  margin: 0.2em 0;
+}
+
+.nav a {
+  color: #888;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.nav a.active,
+.nav a:active,
+.nav a:hover {
+  color: #333;
+  border-bottom: 2px solid #c40022;
 }
